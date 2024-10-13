@@ -1,0 +1,92 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+env/
+venv/
+.myenv/
+ENV/
+env.bak/
+venv.bak/
+
+# FastAPI related (optional if you want to ignore .env files for configurations)
+.env
+.env.*
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+junit*.xml
+
+# PyCharm specific
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VSCode specific
+.vscode/
+
+# MacOS related
+.DS_Store
+
+# Logs and databases
+*.log
+*.sqlite3
+*.db
+*.sql
+*.tar.gz
+
+# pyenv
+.python-version
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Docker specific
+docker-compose.yml
+Dockerfile
+
+# Uvicorn logs and PID
+*.log
+*.pid
